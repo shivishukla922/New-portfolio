@@ -1,0 +1,84 @@
+.hero{
+  display: flex;
+  
+  
+  justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+   
+}
+.hero-text-container{
+    
+}
+.hero-img{
+    width: 500px;
+    border-radius: 250px;
+   
+}
+.hero-buttons{
+    display: flex;
+    gap:20px
+}
+.hero-connect-btn{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.hero-connect-btn:hover{
+    border: 2px solid white;
+}
+.hero-resume:hover{
+    border-color: #B415FF;
+}
+.hero-resume{
+    padding: 20px 40px;
+    border-radius: 50px;
+  border: 2px solid #FFF;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero h1{
+   text-align: center;
+    width: 30%;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  
+}
+.shivi-sp{
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%, 
+        #def9fa 0.89%, 
+        #bef3f5 17.23%, 
+        #9dedf0 42.04%, 
+        #7de7eb 55.12%, 
+        #5ce1e6 71.54%, 
+        #33bbcf 100%
+      );
+    display: inline;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    
+   
+ }
+ .Main-head{
+    white-space: nowrap;
+ }
+ .soft-text {
+    font-size: 20px;
+    line-height: 1.5; 
+    text-align: justify; 
+    font-family: Poppins, sans-serif;
+   
+    margin: 10px 0; 
+    
+    word-wrap: break-word; 
+    max-width: 600px; 
+  }

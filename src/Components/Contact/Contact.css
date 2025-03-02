@@ -1,0 +1,156 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    gap: 80px;
+    margin: 80px 170px;
+
+}
+.contact-title{
+    position: relative;
+}
+.contact-title h1{
+    padding: 0 30px;
+    font-size: 80px;
+  font-weight: 600;
+}
+.contact-title img{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ 
+}
+.contact-left h1{
+    font-size: 50px;
+    font-weight: 700;
+    background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+    white-space: nowrap;
+}
+.contact-section{
+  
+    display: flex;
+  gap:150px
+ 
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ 
+   
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    color: white;
+    gap: 30px;
+}
+ .contact-right{
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+    gap: 30px;
+ }
+ .contact-right label{
+    color: #d8d8d8;
+    font-size: 22px;
+    font-weight: 500;
+ }
+ .contact-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    border-radius: 4px;
+    padding-left: 20px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+ }
+ .contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+
+ }
+ .contact-submit{
+    border: none;
+    color: black;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: radial-gradient(
+  64.18% 64.18% at 71.16% 35.69%, 
+  #def9fa 0.89%, 
+  #bef3f5 17.23%, 
+  #9dedf0 42.04%, 
+  #7de7eb 55.12%, 
+  #5ce1e6 71.54%, 
+  #33bbcf 100%
+);
+    font-size: 22px;
+   
+    transition: 0.5s;
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+ }
+ .resume-button{
+
+     border: none;
+    color: black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: radial-gradient(
+  64.18% 64.18% at 71.16% 35.69%, 
+  #def9fa 0.89%, 
+  #bef3f5 17.23%, 
+  #9dedf0 42.04%, 
+  #7de7eb 55.12%, 
+  #5ce1e6 71.54%, 
+  #33bbcf 100%
+);
+    font-size: 22px;
+   
+    transition: 0.5s;
+    font-size: 22px;
+  
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+ 
+ }

@@ -1,0 +1,129 @@
+.skills-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.main-container {
+  display: flex;
+
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.content-wrapper {
+  width: 100%;
+}
+
+.skills-education {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-container {
+  flex: 1;
+}
+
+.education {
+ height: 100px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.education:hover {
+  
+  box-shadow: 0px 4px 10px rgba(66, 71, 91, .1);
+  border-radius: 8px;
+  background-color: rgba(51, 187, 207, 0.1);
+  padding: 8px 12px;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.skills-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-left: 8px;
+  padding-bottom: 20px;
+}
+
+.icon-item {
+  text-align: center;
+}
+
+.skill-icon {
+  font-size: 40px;
+}
+
+.icon-item p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+.skill-title {
+  padding-bottom: 30px;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+}
+.skills-column {
+  position: relative;
+  margin: 9px;
+  width: 360px;
+  border-left: 1px solid white;
+  padding: 0 20px 0 30px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.skill-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  z-index: 1;
+  left: -6px;
+  top: 15px;
+}
+.col-name {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+}
+.deg-name {
+  font-family: Poppins;
+  font-size: 20px;
+}
